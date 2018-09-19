@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -2479,7 +2479,7 @@ h1, h2, h3, h4, h5, h6 {
 .video-area {
   padding: 200px 0 60px 0;
   position: relative;
-  background: url(../img/video-bg.jpg) no-repeat center center/cover;
+  background: url(../img/glacier.jpg) no-repeat center center/cover;
 }
 
 .video-area .overlay-bg {
