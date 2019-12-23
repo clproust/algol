@@ -6,6 +6,21 @@
 /* =================================== */
 /*  Basic Style
 /* =================================== */
+#tooltip{
+    position:absolute;  
+    background:#fff;
+    border:1px solid #999;
+    padding:5px;
+    display:none;
+}
+.hoverPoint{
+    position:absolute;
+    width:10px;
+    height:10px;
+    border:2px solid #f00;
+    cursor:pointer;
+}
+
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #6495ED;

@@ -30,6 +30,16 @@ $(document).ready(function() {
 
     //  Counter Js
 
+    $('.hoverPoint').mouseenter(function(){
+        $('#tooltip')
+        .css({
+            top: ($(this).position().top-30) + 'px',
+            left: $(this).position().left + 'px'
+         }).html( $(this).data('content') ).show();
+    }).mouseleave(function(){
+        $('#tooltip').html( '' ).hide();
+    });
+
     $('.counter').counterUp({
         delay: 10,
         time: 1000
